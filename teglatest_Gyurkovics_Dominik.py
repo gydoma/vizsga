@@ -1,0 +1,5 @@
+a=int(input('Add meg a téglatest egyik élét: '))
+b=int(input('Add meg a téglatest másik élét: '))
+c=int(input('Add meg a téglatest harmadik élét: '))
+print(f'A téglatest felszíne: {2*(a*b+a*c+b*c)} cm^2')
+print(f'A téglatest térfogata: {a*b*c}')
